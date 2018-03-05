@@ -15,5 +15,6 @@ public class DemoServlit extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doPost(req, resp);
+        System.out.println(1);
     }
 }
